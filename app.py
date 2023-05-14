@@ -20,7 +20,7 @@ newbalanceDest=st.text_input('New Balance Dest:')
 oldbalanceDest=st.text_input('Old  Balance Dest:')
 
 ttype = ttype.upper()
-type_payment = ['PAYMENT', 'TRANSFER', 'CASH_IN', 'CASH_OUT', 'DEBIT']
+type_payment = ['CASH_IN','CASH_OUT','DEBIT','PAYMENT', 'TRANSFER']
 for i in range(len(type_payment)):
     if ttype == type_payment[i]:
         paymentType = i
