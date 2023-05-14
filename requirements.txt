@@ -4,4 +4,4 @@ numpy
 streamlit
 seaborn
 matplotlib
-pandas==3.7
+pandas
