@@ -17,17 +17,20 @@ The goal of this project is to provide a practical implementation of credit card
 
 ## Dataset
 The dataset used for training and evaluation is not included in this repository due to its large size. However, the project provides instructions on how to obtain and preprocess the dataset before running the model. Please refer to the Dataset directory for more details.
+
+
 Dataset Link :- https://www.kaggle.com/datasets/ealaxi/paysim1?resource=download
 
 ## Project Structure
 The project is structured as follows:
 
-data/: Contains the dataset (not included in the repository) and any required data preprocessing scripts.
-models/: Includes the machine learning model implementation and related scripts.
-utils/: Contains utility functions used throughout the project.
-notebooks/: Jupyter notebooks that demonstrate different aspects of the project and provide step-by-step explanations.
-config.py: Configuration file to define various parameters for the project.
-requirements.txt: Lists all the required dependencies for the project.
+##### data/: Contains the dataset (not included in the repository) and any required data preprocessing scripts.
+
+##### models/: Includes the machine learning model implementation and related scripts.
+##### utils/: Contains utility functions used throughout the project.
+##### notebooks/: Jupyter notebooks that demonstrate different aspects of the project and provide step-by-step explanations.
+##### config.py: Configuration file to define various parameters for the project.
+##### requirements.txt: Lists all the required dependencies for the project.
 ## Installation
 To install the necessary dependencies, run the following command:
 #### 📧 pip install -r requirements.txt
@@ -50,4 +53,4 @@ The project aims to achieve high accuracy and precision in detecting credit card
 Contributions are welcome! If you would like to contribute to this project, please follow the guidelines outlined in the CONTRIBUTING file.
 
 ## License
-This project is licensed under the ## MIT License. Feel free to modify and distribute it as per the terms of the license.
+This project is licensed under the MIT License. Feel free to modify and distribute it as per the terms of the license.
