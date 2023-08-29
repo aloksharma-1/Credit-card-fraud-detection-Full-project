@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = pickle.load(open('pipe.pkl','rb'))
+model = pickle.load(open('https://github.com/aloksharma-1/Credit-card-fraud-detection-Full-project/blob/main/pipe.pkl','rb'))
 
 # Set the app title
 st.title('Machine Learning Model')
